@@ -1,4 +1,5 @@
-﻿#include "MyArray.h"
+﻿#include "MyString.h"
+#include "MyArray.h"
 #include <iostream>
 #include <algorithm>
 
@@ -70,6 +71,7 @@ int* MyArray::getArray() const
 {
 	return this->array;
 }
+
 
 size_t MyArray::getSize() const
 {
