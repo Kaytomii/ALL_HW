@@ -16,7 +16,7 @@ void Arena::add(Character* fighter)
 
 void Arena::remove(int index) 
 {
-    if (index >= 0 && index < (int)fighters.size()) 
+    if (index >= 0 && index < fighters.size()) 
     {
         delete fighters[index];
         fighters.erase(fighters.begin() + index);
